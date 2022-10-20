@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/PlayerTurnText"
+        android:layout_width="393dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/turn_text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <Button
+        android:id="@+id/NWButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="572dp"
+        android:text="@string/NW_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/NButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="572dp"
+        android:text="@string/N_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/NEButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="572dp"
+        android:text="@string/NE_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/WButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="447dp"
+        android:text="@string/W_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="447dp"
+        android:text="@string/M_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/EButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginBottom="447dp"
+        android:text="@string/E_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SWButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginBottom="325dp"
+        android:text="@string/SW_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginBottom="325dp"
+        android:text="@string/S_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SEButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginBottom="325dp"
+        android:text="@string/SE_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/NewGameButton"
+        android:layout_width="258dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginBottom="154dp"
+        android:text="@string/NewGame_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

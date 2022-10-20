@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="turn_text">Player 1\'s turn</string>
+    <string name="NW_button"></string>
+    <string name="N_button"></string>
+    <string name="NE_button"></string>
+    <string name="W_button"></string>
+    <string name="M_button"></string>
+    <string name="E_button"></string>
+    <string name="SW_button"></string>
+    <string name="S_button"></string>
+    <string name="SE_button"></string>
+    <string name="NewGame_button">New Game</string>
+</resources>
